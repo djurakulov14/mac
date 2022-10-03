@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'SFProDisplay',sans-serif;
+}
+
+.container {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    /* gap: 40px; */
+}
+
+/* #B1B1B1   */
+.row {
+    text-align: center;
+    margin: 50px;
+    width: 300px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.price{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #B1B1B1;
+}
+
+.btn_box button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.colour_btn_silver{
+    background-color: silver;
+}
+.colour_btn_gray{
+    background-color: gray;
+}
+.colour_btn_beige{
+    background-color: beige;
+}
+
+.buy_btn {
+    width: 45px;
+    height: 25px;
+    border-radius: 500px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.main_info{
+    height: 360px;
+    border-bottom: 1px solid #B1B1B1 ;
+}
+
+.display_size{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.display_title{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #B1B1B1;
+}
+
+.chip_dsc{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #B1B1B1;
+    
+}
+
+.ram_dsc{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #B1B1B1;
+}
+
+.memory{
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+
+
+.video_dsc{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #B1B1B1;
+}
+
+.weight{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.display, .chip_div, .ram_div, .memory_div, .battery_div, .video_div, .weight_div, .others {
+    height: 120px;
+}
+
+.others{
+    font-weight: 600;
+    font-size: 22px;
+    border-bottom: 1px solid #B1B1B1;
+    height: 70px;
+}
+
+.link{
+    display: block;
+    margin-top: 20px;
+    color: blue;
+    font-weight: 500;
+}
